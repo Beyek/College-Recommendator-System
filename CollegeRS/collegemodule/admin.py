@@ -1,9 +1,6 @@
 from django.contrib import admin
 
-from .models import CollegeEntityMaster
-from .models import Affiliations
-from .models import CourseMaster
-from .models import University
+from .models import CollegeEntityMaster, PreferenceCategory, Affiliations, CourseMaster, University, UserInfo
 
 
 @admin.register(CollegeEntityMaster)
@@ -24,3 +21,13 @@ class UniversityEntityAdmin(admin.ModelAdmin):
 @admin.register(CourseMaster)
 class CourseEntityAdmin(admin.ModelAdmin):
     list_display = ['degree']
+
+
+@admin.register(PreferenceCategory)
+class PreferenceCategoryAdmin(admin.ModelAdmin):
+    list_display = ['categoryName', 'subCategory', 'value']
+
+
+@admin.register(UserInfo)
+class UserInfoAdmin(admin.ModelAdmin):
+    list_display = ['name', 'email_address',  'sex']

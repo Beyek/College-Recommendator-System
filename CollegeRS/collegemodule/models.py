@@ -10,14 +10,19 @@ class UserInfo(models.Model):
     description = models.TextField()
     sex = models.CharField(choices=SEX_CHOICES, max_length=1, blank=True)
     registered_date = models.DateTimeField()
-    preferences = models.ManyToManyField('UserPreferences', blank=True)
+    preferences = models.ManyToManyField('PreferenceCategory', blank=True)
 
 
-class UserPreferences(models.Model):
-    filtersCategory = models.CharField(max_length=50, unique=True)
+class PreferenceCategory(models.Model):
+    categoryName = models.CharField(max_length=50, unique=True)
+    subCategory = models.CharField(max_length=50, blank=True, null=True)
+    value = models.CharField(max_length=50, blank=False, null=False)
+
+    class Meta:
+        unique_together = ('categoryName', 'value',)
 
     def __str__(self):
-        return self.filtersCategory
+        return '%s (%s)' % (self.categoryName, self.value)
 
 
 class CollegeEntityMaster(models.Model):
