@@ -1,16 +1,29 @@
 from django.db import models
+from django.contrib.auth.models import AbstractUser
+from django.contrib.auth.models import User
+from django.db.models.signals import post_save
+from django.dispatch import receiver
 
 
-class UserInfo(models.Model):
+class Profile(models.Model):
     SEX_CHOICES = [('M', 'Male'), ('F', 'Female')]
-    email_address = models.CharField(max_length=100)
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
     name = models.CharField(max_length=100)
-    password = models.CharField(max_length=30)
-    auth_token = models.CharField(max_length=30, blank=True)
-    description = models.TextField()
     sex = models.CharField(choices=SEX_CHOICES, max_length=1, blank=True)
-    registered_date = models.DateTimeField()
+    email_address = models.CharField(max_length=100)
+    description = models.TextField(max_length=500, blank=True)
     preferences = models.ManyToManyField('PreferenceCategory', blank=True)
+
+
+@receiver(post_save, sender=User)
+def create_user_profile(sender, instance, created, **kwargs):
+    if created:
+        Profile.objects.create(user=instance)
+
+
+@receiver(post_save, sender=User)
+def save_user_profile(sender, instance, **kwargs):
+    instance.profile.save()
 
 
 class PreferenceCategory(models.Model):
@@ -35,6 +48,15 @@ class CollegeEntityMaster(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class CollegeAffiliationsPreference(models.Model):
+    collegeId = models.ForeignKey('CollegeEntityMaster', blank=False, on_delete=models.CASCADE)
+    affiliationId = models.ForeignKey('Affiliations', blank=False, on_delete=models.CASCADE)
+    preferenceId = models.ForeignKey('PreferenceCategory', blank=False, on_delete=models.CASCADE)
+
+    class Meta:
+        unique_together = ('collegeId', 'affiliationId', 'preferenceId',)
 
 
 class Affiliations(models.Model):

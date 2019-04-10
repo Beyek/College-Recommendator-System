@@ -1,0 +1,56 @@
+{% load static %}
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - College Recommendation System</title>
+    <link rel="stylesheet" id="ample-style-css" href="{% static 'style.css' %}" type="text/css" media="all">
+</head>
+<body class="wide">
+<div id="page" class="hfeed site">
+    <header>
+        <div class="header">
+            <div class="main-head-wrap inner-wrap clearfix">
+                <div id="header-logo-image">
+                    <a href="/">
+                        <img src="{% static 'images/logo.png' %}" alt="College of Your Choice">
+                    </a>
+                </div>
+                <div id="header-text" class="">
+                    <h1 id="site-title">
+                        <a href="/" title="College of YOUR choice" rel="home">College of YOUR choice</a>
+                    </h1>
+                    <p>We use integrated technology to find you a better college, for better you.</p>
+                </div>
+                <div>{% if user.is_authenticated %}
+                    Hi {{ user.username }}!
+                    <p><a href="{% url 'logout' %}">logout</a></p>
+                {% else %}
+                    <p>You are not logged in</p>
+                    <a href="{% url 'login' %}">login</a> |
+                    <a href="{% url 'signup' %}">signup</a>
+                {% endif %}</div>
+            </div>
+
+        </div>
+        {#                    <img src="{% static 'images/backgroundIMg.jpg' %}" alt="College of your choice">#}
+
+    </header>
+    <div class="main-wrapper">
+        <div class="single-page clearfix">
+            <div class="inner-wrap">
+                <div>
+                    {% block content %}
+                    {% endblock %}
+                </div>
+            </div>
+        </div>
+    </div>
+    {#            <footer id="colophon">#}
+    {#                <div class="inner-wrap">#}
+    {#                    "College of your choice" is a fictitious brand created for academic project submission, solely for the purpose of presentation. Any resemblance to real brands, products, or people is purely coincidental.#}
+    {#                </div>#}
+    {#            </footer>#}
+</div>
+<script src="{% static 'main.js' %}"></script>
+</body>
+</html>

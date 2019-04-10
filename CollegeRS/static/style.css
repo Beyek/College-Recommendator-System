@@ -1287,6 +1287,10 @@ body.wide {
 	height: auto;
 	width: auto;
 }
+#login-text {
+	/*float: right;*/
+	margin: 0 auto;
+}
 #header-text {
 	float: left;
 	padding-right: 20px;
