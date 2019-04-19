@@ -1,4 +1,4 @@
-from django.db import models
+from django.db import models, transaction
 from django.contrib.auth.models import AbstractUser
 from django.contrib.auth.models import User
 from django.db.models.signals import post_save
@@ -14,6 +14,9 @@ class Profile(models.Model):
     description = models.TextField(max_length=500, blank=True)
     preferences = models.ManyToManyField('PreferenceCategory', blank=True)
 
+    def __str__(self):
+        return self.user.username
+
 
 @receiver(post_save, sender=User)
 def create_user_profile(sender, instance, created, **kwargs):
@@ -27,7 +30,7 @@ def save_user_profile(sender, instance, **kwargs):
 
 
 class PreferenceCategory(models.Model):
-    categoryName = models.CharField(max_length=50, unique=True)
+    categoryName = models.CharField(max_length=50)
     subCategory = models.CharField(max_length=50, blank=True, null=True)
     value = models.CharField(max_length=50, blank=False, null=False)
 
@@ -35,7 +38,7 @@ class PreferenceCategory(models.Model):
         unique_together = ('categoryName', 'value',)
 
     def __str__(self):
-        return '%s (%s)' % (self.categoryName, self.value)
+        return '%i. %s, %s' % (self.id, self.categoryName, self.subCategory)
 
 
 class CollegeEntityMaster(models.Model):

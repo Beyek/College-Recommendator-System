@@ -4,17 +4,17 @@
     <div>
         {% for college in colleges %}
             <div class="colzrRS">
-                <a href="{% url 'college_detail' college.id %}">
-                    <h3>{{ college.name|capfirst }}</h3>
+{#                <a href="{% url 'college_detail' college.id %}">#}
+                    <h3>{{ college|capfirst }}</h3>
                 </a>
-                <p>located at :{{ college.address }}</p>
-                {% if college.contact_no %}
-                    <p>contact no: {{ college.contact_no }}</p>
-                {% endif %}
-                {% if college.url %}
-                    <p>website: {{ college.url }}</p>
-                {% endif %}
-                <p class="hidden">{{ college.description }}</p>
+{#                <p>located at :{{ college.address }}</p>#}
+{#                {% if college.contact_no %}#}
+{#                    <p>contact no: {{ college.contact_no }}</p>#}
+{#                {% endif %}#}
+{#                {% if college.url %}#}
+{#                    <p>website: {{ college.url }}</p>#}
+{#                {% endif %}#}
+{#                <p class="hidden">{{ college.description }}</p>#}
             </div>
         {% endfor %}
     </div>

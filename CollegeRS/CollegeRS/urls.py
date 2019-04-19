@@ -22,11 +22,12 @@ from django.views.generic.base import TemplateView
 from collegemodule import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('accounts/', include('collegemodule.urls')),
-    path('accounts/', include('django.contrib.auth.urls')),
+    path('admin/', admin.site.urls, name='admin'),
+    path('accounts/', include('collegemodule.urls'), name='accounts'),
+    path('accounts/', include('django.contrib.auth.urls'), name='account_auth'),
+    path('college_detail/', views.college_detail, name='college_detail'),
     path('', TemplateView.as_view(template_name='home.html'), name='home'),
-    url(r'^$', views.home, name='home'),
-    url(r'^college_detail/(\d+)/', views.college_detail, name='college_detail'),
+    # url(r'^$', views.home, name='home'),
+    # url(r'^college_detail/(\d+)/', views.college_detail, name='college_detail'),
 
 ]
