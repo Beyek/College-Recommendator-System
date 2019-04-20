@@ -35,10 +35,10 @@ class PreferenceCategory(models.Model):
     value = models.CharField(max_length=50, blank=False, null=False)
 
     class Meta:
-        unique_together = ('categoryName', 'value',)
+        unique_together = ('categoryName', 'subCategory', 'value',)
 
     def __str__(self):
-        return '%i. %s, %s' % (self.id, self.categoryName, self.subCategory)
+        return '%i. %s, %s' % (self.id, self.categoryName, self.value)
 
 
 class CollegeEntityMaster(models.Model):
