@@ -8,7 +8,6 @@
         <p><a href="{% url 'logout' %}">logout</a></p>
         <p><a href="{% url 'password_reset' %}">reset password</a></p>
         {% block content %}
-            <p>Top 5 college matches your preference</p>
             <div>
                 {% for college in colleges %}
                     <div class="colzrRS">

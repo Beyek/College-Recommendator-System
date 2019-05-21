@@ -2,6 +2,7 @@
 {% extends "base.html" %}
 {% block content %}
     <div>
+        <h1><b>Top {{size}} college recommended :</b></h1>
         {% for college in colleges %}
             <div class="colzrRS">
 {#                <a href="{% url 'college_detail' college.id %}">#}

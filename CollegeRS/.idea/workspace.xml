@@ -1,34 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a105d439-3ca1-4e42-bed6-85eb466df563" name="Default Changelist" comment="#Refactored model for adding Preferences filter and its sub category">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collegemodule/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collegemodule/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sent_emails/20190409-173949-139655597831056.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/backgroundIMg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_complete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43e994c0-af84-4b80-b80c-8e39e733a875.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43e994c0-af84-4b80-b80c-8e39e733a875.xml" afterDir="false" />
+    <list default="true" id="a105d439-3ca1-4e42-bed6-85eb466df563" name="Default Changelist" comment="modified __str__ return for">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CollegeRS.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CollegeRS/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CollegeRS/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CollegeRS/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/CollegeRS/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collegemodule/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/collegemodule/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collegemodule/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/collegemodule/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collegemodule/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/collegemodule/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collegemodule/migrations/0002_auto_20190331_1652.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collegemodule/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/collegemodule/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collegemodule/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collegemodule/templates/college_details.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collegemodule/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/college_details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CollegeRS.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/CollegeRS.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collegemodule/cosinesimilarity.py" beforeDir="false" afterPath="$PROJECT_DIR$/collegemodule/cosinesimilarity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/collegemodule/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/collegemodule/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/college_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/college_details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,70 +53,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CollegeRS/settings.py">
+        <entry file="file://$PROJECT_DIR$/collegemodule/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
-              <caret line="56" column="69" selection-start-line="56" selection-start-column="69" selection-end-line="56" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collegemodule/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+            <state relative-caret-position="92">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/collegemodule/models.py">
+        <entry file="file://$PROJECT_DIR$/collegemodule/cosinesimilarity.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+            <state relative-caret-position="780">
+              <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collegemodule/urls.py">
+        <entry file="file://$PROJECT_DIR$/CollegeRS/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collegemodule/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collegemodule/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="76" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
-              <folding>
-                <element signature="e#0#70#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -143,17 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/college_details.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="20" selection-end-column="14" />
+            <state relative-caret-position="300">
+              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -161,8 +97,50 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+            <state relative-caret-position="510">
+              <caret line="34" column="108" selection-start-line="34" selection-start-column="108" selection-end-line="34" selection-end-column="108" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/collegemodule/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/college_details.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/collegemodule/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CollegeRS/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="27" column="70" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="70" />
+              <folding>
+                <element signature="e#633#665#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -187,6 +165,8 @@
       <find>AbstractUser</find>
       <find>UserInfo</find>
       <find>userinfo</find>
+      <find>_get_user_session_key</find>
+      <find>colleges</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -208,25 +188,28 @@
         <option value="$PROJECT_DIR$/collegemodule/apps.py" />
         <option value="$PROJECT_DIR$/templates/SignUp.html" />
         <option value="$PROJECT_DIR$/collegemodule/url.py" />
-        <option value="$PROJECT_DIR$/CollegeRS/urls.py" />
-        <option value="$PROJECT_DIR$/templates/college_details.html" />
         <option value="$PROJECT_DIR$/static/style.css" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/templates/registration/login.html" />
-        <option value="$PROJECT_DIR$/CollegeRS/settings.py" />
-        <option value="$PROJECT_DIR$/collegemodule/models.py" />
-        <option value="$PROJECT_DIR$/collegemodule/urls.py" />
-        <option value="$PROJECT_DIR$/collegemodule/views.py" />
-        <option value="$PROJECT_DIR$/templates/home.html" />
-        <option value="$PROJECT_DIR$/collegemodule/forms.py" />
         <option value="$PROJECT_DIR$/collegemodule/admin.py" />
+        <option value="$PROJECT_DIR$/collegemodule/urls.py" />
+        <option value="$PROJECT_DIR$/collegemodule/forms.py" />
+        <option value="$PROJECT_DIR$/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/templates/signup.html" />
+        <option value="$PROJECT_DIR$/CollegeRS/urls.py" />
+        <option value="$PROJECT_DIR$/collegemodule/models.py" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/college_details.html" />
+        <option value="$PROJECT_DIR$/collegemodule/views.py" />
+        <option value="$PROJECT_DIR$/CollegeRS/settings.py" />
+        <option value="$PROJECT_DIR$/collegemodule/cosinesimilarity.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="18" />
     <option name="y" value="-4" />
-    <option name="width" value="1366" />
-    <option name="height" value="772" />
+    <option name="width" value="1360" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -236,7 +219,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -268,6 +250,17 @@
             <path>
               <item name="CollegeRS" type="b2602c69:ProjectViewProjectNode" />
               <item name="CollegeRS" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CollegeRS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CollegeRS" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CollegeRS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CollegeRS" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -276,10 +269,15 @@
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="registration" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CollegeRS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,7 +286,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/collegemodule/templates/registration" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -317,7 +315,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.views">
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CollegeRS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/collegemodule" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/collegemodule/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="CollegeRS" type="Python.DjangoServer" factoryName="Django server">
       <module name="CollegeRS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -342,6 +362,11 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -364,7 +389,22 @@
       <workItem from="1554655827681" duration="1230000" />
       <workItem from="1554736771890" duration="4616000" />
       <workItem from="1554824396406" duration="13876000" />
-      <workItem from="1554907955262" duration="5474000" />
+      <workItem from="1554907955262" duration="6242000" />
+      <workItem from="1554948740101" duration="592000" />
+      <workItem from="1555001390507" duration="323000" />
+      <workItem from="1555004321198" duration="1256000" />
+      <workItem from="1555248844636" duration="2149000" />
+      <workItem from="1555374247856" duration="399000" />
+      <workItem from="1555374700733" duration="3379000" />
+      <workItem from="1555417079998" duration="19058000" />
+      <workItem from="1555468283465" duration="6295000" />
+      <workItem from="1555503532957" duration="4860000" />
+      <workItem from="1555634872406" duration="3949000" />
+      <workItem from="1555678461835" duration="14131000" />
+      <workItem from="1555700082896" duration="4388000" />
+      <workItem from="1555719016764" duration="4016000" />
+      <workItem from="1555726229350" duration="5949000" />
+      <workItem from="1558461475422" duration="699000" />
     </task>
     <task id="LOCAL-00001" summary="#Refactored model for adding Preferences filter and its sub category">
       <created>1554409698386</created>
@@ -380,16 +420,51 @@
       <option name="project" value="LOCAL" />
       <updated>1554409755971</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="#User Registration and SignUp model complete">
+      <created>1554915499101</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554915499101</updated>
+    </task>
+    <task id="LOCAL-00004" summary="#User Registration and SignUp model complete">
+      <created>1555700343584</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555700343584</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added correlation matrix">
+      <created>1555720967745</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1555720967745</updated>
+    </task>
+    <task id="LOCAL-00006" summary="modified __str__ return for and unique constraint of PreferenceCategory model.">
+      <created>1555721142572</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1555721142572</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added migration for change in unique constraints">
+      <created>1555721498395</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1555721498395</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60164000" />
+    <option name="totallyTimeSpent" value="132375000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-4" width="1368" height="773" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2840909" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3280303" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -401,9 +476,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Console" order="7" weight="0.32935917" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32884902" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.74588937" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32935917" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.31594634" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" />
@@ -414,7 +489,7 @@
       <window_info anchor="right" id="Database" order="4" weight="0.32954547" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2840909" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32272726" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -426,9 +501,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Console" order="7" weight="0.32935917" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32884902" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.74588937" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32935917" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3168909" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" />
@@ -436,66 +511,35 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.32954547" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32954547" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="#Refactored model for adding Preferences filter and its sub category" />
     <MESSAGE value="#migrations file" />
-    <option name="LAST_COMMIT_MESSAGE" value="#migrations file" />
+    <MESSAGE value="#User Registration and SignUp model complete" />
+    <MESSAGE value="added correlation matrix" />
+    <MESSAGE value="modified __str__ return for and unique constraint of PreferenceCategory model." />
+    <MESSAGE value="added migration for change in unique constraints" />
+    <option name="LAST_COMMIT_MESSAGE" value="added migration for change in unique constraints" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CollegeRS$views.coverage" NAME="views Coverage Results" MODIFIED="1555688234517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/collegemodule" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://43e994c0-af84-4b80-b80c-8e39e733a875/schema/main/table/collegemodule_collegeentitymaser" />
-    <entry file="file://$PROJECT_DIR$/collegemodule/migrations/0002_university_courseoffer.py" />
-    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/django/db/models/fields/related.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="781" column="8" selection-start-line="781" selection-start-column="8" selection-end-line="781" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/django/db/models/deletion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-146">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://43e994c0-af84-4b80-b80c-8e39e733a875/schema/main/table/collegemodule_collegeentitymaser_affiliation" />
-    <entry file="das://43e994c0-af84-4b80-b80c-8e39e733a875/schema/main/table/collegemodule_collegeentitymaster_affiliation">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://43e994c0-af84-4b80-b80c-8e39e733a875/schema/main/table/collegemodule_university">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://43e994c0-af84-4b80-b80c-8e39e733a875/schema/main/table/collegemodule_userinfo">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://43e994c0-af84-4b80-b80c-8e39e733a875/schema/main/table/collegemodule_coursemaster">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="uml://DATABASE/43e994c0-af84-4b80-b80c-8e39e733a875.SCHEMA:main">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -644,157 +688,12 @@
     <entry file="das://5e3cd194-f382-4ee9-ae8d-7ad02854da52/schema/main/table/collegemodule_userinfo_preferences" />
     <entry file="das://5e3cd194-f382-4ee9-ae8d-7ad02854da52/schema/main/table/collegemodule_userinfo" />
     <entry file="das://5e3cd194-f382-4ee9-ae8d-7ad02854da52/schema/main/table/collegemodule_collegeentitymaster" />
-    <entry file="uml://DATABASE/43e994c0-af84-4b80-b80c-8e39e733a875">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>43e994c0-af84-4b80-b80c-8e39e733a875</OriginalElement>
-          <nodes>
-            <node x="0.0" y="550.0">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_group_permissions</node>
-            <node x="0.0" y="879.0">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.collegemodule_collegeentitymaster</node>
-            <node x="428.87499999999994" y="149.0">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_user</node>
-            <node x="238.0" y="257.0">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_group</node>
-            <node x="393.5" y="754.0">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.collegemodule_coursemaster</node>
-            <node x="332.62500000000006" y="0.0">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.django_content_type</node>
-            <node x="5.125" y="233.0">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_permission</node>
-            <node x="175.5" y="754.0">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.collegemodule_university</node>
-            <node x="281.0" y="915.0">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.collegemodule_affiliations</node>
-            <node x="650.5" y="754.0">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.collegemodule_userinfo</node>
-            <node x="604.0" y="490.0">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.django_admin_log</node>
-            <node x="445.0" y="1244.0">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.sqlite_sequence</node>
-            <node x="436.0" y="550.0">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_user_groups</node>
-            <node x="204.00000000000003" y="550.0">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_user_user_permissions</node>
-            <node x="203.0" y="1244.0">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.django_session</node>
-            <node x="1189.5" y="754.0">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.sqlite_master</node>
-            <node x="890.5" y="802.0">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.collegemodule_preferencecategory</node>
-            <node x="0.0" y="1244.0">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.django_migrations</node>
-            <node x="86.25" y="1100.0">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.collegemodule_collegeentitymaster_affiliation</node>
-            <node x="755.0" y="1023.0">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.collegemodule_userinfo_preferences</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_user_user_permissions" target="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_permission">
-              <point x="-53.0" y="-49.5" />
-              <point x="257.0" y="460.0" />
-              <point x="158.125" y="460.0" />
-              <point x="51.0" y="61.5" />
-            </edge>
-            <edge source="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.django_admin_log" target="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_user">
-              <point x="-58.75" y="-109.5" />
-              <point x="662.75" y="470.0" />
-              <point x="588.875" y="470.0" />
-              <point x="64.0" y="145.5" />
-            </edge>
-            <edge source="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.collegemodule_affiliations" target="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.collegemodule_coursemaster">
-              <point x="53.0" y="-49.5" />
-              <point x="440.0" y="854.0" />
-              <point x="499.5" y="854.0" />
-              <point x="0.0" y="37.5" />
-            </edge>
-            <edge source="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.collegemodule_collegeentitymaster_affiliation" target="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.collegemodule_collegeentitymaster">
-              <point x="-86.25" y="-49.5" />
-              <point x="172.5" y="1075.0" />
-              <point x="130.5" y="1075.0" />
-              <point x="0.0" y="85.5" />
-            </edge>
-            <edge source="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_group_permissions" target="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_group">
-              <point x="46.0" y="-49.5" />
-              <point x="138.0" y="470.0" />
-              <point x="275.5" y="470.0" />
-              <point x="-37.5" y="37.5" />
-            </edge>
-            <edge source="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_user_groups" target="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_user">
-              <point x="36.999999999999886" y="-49.5" />
-              <point x="546.9999999999999" y="470.0" />
-              <point x="524.875" y="470.0" />
-              <point x="0.0" y="145.5" />
-            </edge>
-            <edge source="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_group_permissions" target="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_permission">
-              <point x="-46.0" y="-49.5" />
-              <point x="46.0" y="470.0" />
-              <point x="56.125" y="470.0" />
-              <point x="-51.0" y="61.5" />
-            </edge>
-            <edge source="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_user_groups" target="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_group">
-              <point x="-37.000000000000114" y="-49.5" />
-              <point x="472.9999999999999" y="460.0" />
-              <point x="350.5" y="460.0" />
-              <point x="37.5" y="37.5" />
-            </edge>
-            <edge source="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.collegemodule_userinfo_preferences" target="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.collegemodule_userinfo">
-              <point x="-67.0" y="-49.5" />
-              <point x="822.0" y="998.0" />
-              <point x="760.5" y="998.0" />
-              <point x="0.0" y="109.5" />
-            </edge>
-            <edge source="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_permission" target="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.django_content_type">
-              <point x="0.0" y="-61.5" />
-              <point x="107.125" y="124.0" />
-              <point x="379.62500000000006" y="124.0" />
-              <point x="-47.0" y="49.5" />
-            </edge>
-            <edge source="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.collegemodule_userinfo_preferences" target="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.collegemodule_preferencecategory">
-              <point x="67.0" y="-49.5" />
-              <point x="956.0" y="998.0" />
-              <point x="1017.5" y="998.0" />
-              <point x="0.0" y="61.5" />
-            </edge>
-            <edge source="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.collegemodule_affiliations" target="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.collegemodule_university">
-              <point x="-53.0" y="-49.5" />
-              <point x="334.0" y="854.0" />
-              <point x="274.5" y="854.0" />
-              <point x="0.0" y="37.5" />
-            </edge>
-            <edge source="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.django_admin_log" target="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.django_content_type">
-              <point x="58.75" y="-109.5" />
-              <point x="780.25" y="124.0" />
-              <point x="473.62500000000006" y="124.0" />
-              <point x="47.0" y="49.5" />
-            </edge>
-            <edge source="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_user_user_permissions" target="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_user">
-              <point x="53.0" y="-49.5" />
-              <point x="363.0" y="470.0" />
-              <point x="460.87499999999994" y="470.0" />
-              <point x="-64.0" y="145.5" />
-            </edge>
-            <edge source="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.collegemodule_collegeentitymaster_affiliation" target="43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.collegemodule_affiliations">
-              <point x="86.25" y="-49.5" />
-              <point x="345.0" y="1075.0" />
-              <point x="387.0" y="1075.0" />
-              <point x="0.0" y="49.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.33613445378151263" x="993.0" y="745.0" />
-          <SelectedNodes>
-            <node>43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.django_content_type</node>
-            <node>43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_user</node>
-            <node>43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_permission</node>
-            <node>43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.django_admin_log</node>
-            <node>43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_group_permissions</node>
-            <node>43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_group</node>
-            <node>43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_user_user_permissions</node>
-            <node>43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_user_groups</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/HTML-Groovy.html.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-213" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/header.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/CollegeRS/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CollegeRS/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="das://43e994c0-af84-4b80-b80c-8e39e733a875/schema/main/table/collegemodule_collegeentitymaster">
@@ -804,18 +703,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/backgroundIMg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/registration/password_reset_form.html">
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/django/contrib/auth/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="4375">
+          <caret line="342" column="11" lean-forward="true" selection-start-line="342" selection-start-column="11" selection-end-line="342" selection-end-column="11" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/django/views/generic/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="109" column="4" selection-start-line="109" selection-start-column="4" selection-end-line="109" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/django/forms/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="458" column="28" lean-forward="true" selection-start-line="458" selection-start-column="28" selection-end-line="458" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/43e994c0-af84-4b80-b80c-8e39e733a875">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>43e994c0-af84-4b80-b80c-8e39e733a875</OriginalElement>
+          <nodes>
+            <node x="" y="">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_group_permissions</node>
+            <node x="" y="">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.sqlite_master</node>
+            <node x="" y="">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.collegemodule_collegeentitymaster</node>
+            <node x="" y="">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_user</node>
+            <node x="" y="">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_group</node>
+            <node x="" y="">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.collegemodule_coursemaster</node>
+            <node x="" y="">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.django_content_type</node>
+            <node x="" y="">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_permission</node>
+            <node x="" y="">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.collegemodule_university</node>
+            <node x="" y="">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.collegemodule_affiliations</node>
+            <node x="" y="">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.django_admin_log</node>
+            <node x="" y="">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.collegemodule_profile_preferences</node>
+            <node x="" y="">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.sqlite_sequence</node>
+            <node x="" y="">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_user_groups</node>
+            <node x="" y="">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.auth_user_user_permissions</node>
+            <node x="" y="">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.django_session</node>
+            <node x="" y="">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.collegemodule_profile</node>
+            <node x="" y="">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.collegemodule_collegeaffiliationspreference</node>
+            <node x="" y="">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.collegemodule_preferencecategory</node>
+            <node x="" y="">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.django_migrations</node>
+            <node x="" y="">43e994c0-af84-4b80-b80c-8e39e733a875.TABLE:main.collegemodule_collegeentitymaster_affiliation</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.2501302761855133" x="1843.0" y="739.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sent_emails/20190409-173949-139655597831056.log" />
+    <entry file="file://$PROJECT_DIR$/sent_emails/20190416-010004-140670987948664.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/django_pandas/managers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3540">
+          <caret line="239" column="8" selection-start-line="239" selection-start-column="8" selection-end-line="239" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collegemodule/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collegemodule/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collegemodule/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollegeRS/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/registration/password_reset_complete.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -838,79 +819,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/collegemodule/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sent_emails/20190409-173949-139655597831056.log">
+    <entry file="file://$PROJECT_DIR$/templates/registration/password_reset_form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="65" />
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CollegeRS/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-          <folding>
-            <element signature="e#633#665#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/django/contrib/auth/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4375">
-          <caret line="342" column="11" lean-forward="true" selection-start-line="342" selection-start-column="11" selection-end-line="342" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="1291" column="19" lean-forward="true" selection-start-line="1291" selection-start-column="19" selection-end-line="1291" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
+    <entry file="file://$PROJECT_DIR$/collegemodule/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CollegeRS/settings.py">
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/django/contrib/auth/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="56" column="69" selection-start-line="56" selection-start-column="69" selection-end-line="56" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/django/views/generic/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="109" column="4" selection-start-line="109" selection-start-column="4" selection-end-line="109" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/django/forms/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="458" column="28" lean-forward="true" selection-start-line="458" selection-start-column="28" selection-end-line="458" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://43e994c0-af84-4b80-b80c-8e39e733a875/schema/main/table/collegemodule_profile">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+        <state relative-caret-position="60">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -921,73 +847,151 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/collegemodule/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+    <entry file="das://43e994c0-af84-4b80-b80c-8e39e733a875/schema/main/table/collegemodule_profile">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/collegemodule/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/college_details.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="e#293#311#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://43e994c0-af84-4b80-b80c-8e39e733a875/schema/main/table/collegemodule_preferencecategory">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/django_pandas/io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://43e994c0-af84-4b80-b80c-8e39e733a875/schema/main/table/collegemodule_profile_preferences">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/collegemodule/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="76" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
+        <state relative-caret-position="315">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#0#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/collegemodule/admin.py">
+    <entry file="file://$PROJECT_DIR$/static/images/backgroundIMg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/header.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-12417">
+          <caret line="1293" column="13" lean-forward="true" selection-start-line="1293" selection-start-column="13" selection-end-line="1293" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollegeRS/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="108" selection-start-line="34" selection-start-column="108" selection-end-line="34" selection-end-column="108" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/collegemodule/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        <state relative-caret-position="525">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/college_details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collegemodule/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollegeRS/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="27" column="70" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="70" />
+          <folding>
+            <element signature="e#633#665#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collegemodule/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collegemodule/cosinesimilarity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
